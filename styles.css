@@ -3182,7 +3182,87 @@ footer p {
     100% { transform: translateY(-4px); }
 }
 
+/* ---- Main Page Section: Shorter in height (lombai choto), wider in width (choura) ---- */
+.main-menu-scroll-track .food-menu-card {
+    flex: 0 0 215px !important;
+    padding: 10px 12px 12px !important;
+}
+
+.main-menu-scroll-track .food-card-img-box {
+    aspect-ratio: 16 / 10 !important;
+    margin-bottom: 6px !important;
+    border-radius: 10px !important;
+}
+
+.main-menu-scroll-track .food-card-badge {
+    top: 13px !important;
+    right: 13px !important;
+    padding: 2px 7px !important;
+    font-size: 0.62rem !important;
+}
+
+.main-menu-scroll-track .food-card-body {
+    gap: 2px !important;
+}
+
+.main-menu-scroll-track .food-title {
+    font-size: 0.94rem !important;
+    line-height: 1.22 !important;
+}
+
+.main-menu-scroll-track .bengali-title {
+    font-size: 0.76rem !important;
+    margin-bottom: 1px !important;
+}
+
+.main-menu-scroll-track .food-price {
+    font-size: 1.05rem !important;
+    margin-bottom: 4px !important;
+}
+
+.main-menu-scroll-track .food-order-btn {
+    padding: 6px 10px !important;
+    font-size: 0.75rem !important;
+    border-radius: 7px !important;
+}
+
 @media (max-width: 600px) {
+    .main-menu-scroll-track .food-menu-card {
+        flex: 0 0 170px !important;
+        padding: 8px 9px 10px !important;
+        border-radius: 14px !important;
+    }
+    .main-menu-scroll-track .food-card-img-box {
+        aspect-ratio: 16 / 10 !important;
+        margin-bottom: 4px !important;
+        border-radius: 8px !important;
+    }
+    .main-menu-scroll-track .food-card-badge {
+        top: 10px !important;
+        right: 10px !important;
+        padding: 2px 6px !important;
+        font-size: 0.55rem !important;
+    }
+    .main-menu-scroll-track .food-card-body {
+        gap: 1px !important;
+    }
+    .main-menu-scroll-track .food-title {
+        font-size: 0.84rem !important;
+        line-height: 1.2 !important;
+    }
+    .main-menu-scroll-track .bengali-title {
+        font-size: 0.70rem !important;
+        margin-bottom: 0px !important;
+    }
+    .main-menu-scroll-track .food-price {
+        font-size: 0.95rem !important;
+        margin-bottom: 3px !important;
+    }
+    .main-menu-scroll-track .food-order-btn {
+        padding: 5px 8px !important;
+        font-size: 0.72rem !important;
+        border-radius: 6px !important;
+    }
     .menu-filter-controls-row {
         gap: 10px;
         margin: 4px auto 14px auto;
@@ -3225,10 +3305,6 @@ footer p {
 }
 
 /* Shimmer ray sweep across button */
-}
-
-@media (max-width: 600px) {
-    }
 
 /* ---- Optimized Compact Gap for Customer Reviews Photo Gallery ---- */
 .reviews-section {
@@ -3255,10 +3331,6 @@ footer p {
 }
 
 /* Shimmer ray sweep across button */
-}
-
-@media (max-width: 600px) {
-    }
 
 /* ============================================================
    IN-PAGE FULL MENU POPUP MODAL STYLES (Adaptive Theme)
